@@ -1,6 +1,6 @@
 // #include <SDL.h>
 #include <stdio.h>
-#include "game.h"
+#include "../headers/game.h"
 
 
 int main(int argc, const char* args[])
