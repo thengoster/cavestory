@@ -1,10 +1,11 @@
-// #include <SDL.h>
-#include <stdio.h>
-#include "../headers/game.h"
+/* Main.cpp
+ * The entry point of the program/game
+ */
 
+#include "../headers/game.h"
 
 int main(int argc, const char* args[])
 {
-	printf("Hi\n");
+	Game game;
 	return 0;
 }

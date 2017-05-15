@@ -118,11 +118,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\input.cpp" />
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\game.cpp" />
+    <ClCompile Include="src\graphics.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="headers\game.h" />
+    <ClInclude Include="headers\graphics.h" />
+    <ClInclude Include="headers\input.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
