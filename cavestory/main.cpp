@@ -17,6 +17,7 @@ int main(int argc, char* args[])
 		return -1;
 	}
 
+
 	bool exit = false;
 	SDL_Event e;
 
