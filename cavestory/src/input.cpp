@@ -1,6 +1,4 @@
-/* Input class
- * Handles keyboard interrupts (inputs) and their state
- */
+#include <SDL.h>
 
 #include "../headers/input.h"
 

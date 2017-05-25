@@ -1,7 +1,10 @@
 #ifndef _INPUT_H
 #define _INPUT_H
 
-#include <SDL.h>
+/* Input class
+* Handles keyboard interrupts (inputs) and their state
+*/
+
 #include <map>
 
 class Input {
