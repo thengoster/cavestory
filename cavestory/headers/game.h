@@ -5,7 +5,7 @@
  * This class holds all information for our main game loop
  */
 
-#include "sprite.h"
+#include "animatedsprite.h"
 
 // forward declaration of graphics class
 class Graphics;
@@ -32,7 +32,7 @@ private:
 	/* update */
 	void update(float elapsedTime);
 
-	Sprite _player;
+	AnimatedSprite _player;
 };
 
 #endif
