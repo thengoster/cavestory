@@ -1,4 +1,4 @@
-/* Main.cpp
+/* Main class
  * The entry point of the program/game
  */
 

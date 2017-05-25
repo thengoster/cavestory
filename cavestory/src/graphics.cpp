@@ -6,10 +6,6 @@
 
 #include "../headers/graphics.h"
 
-
-/* Graphics
- * creates window and renderer using SDL 
- */
 Graphics::Graphics()
 {
 	// &this for clarity that we need a pointer to our window/renderer pointer
@@ -17,9 +13,6 @@ Graphics::Graphics()
 	SDL_SetWindowTitle(this->_window, "Cavestory");
 }
 
-/* ~Graphics
- * destroys any window/renderer that goes out of scope
- */
 Graphics::~Graphics()
 {
 	SDL_DestroyWindow(this->_window);

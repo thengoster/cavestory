@@ -14,24 +14,17 @@ namespace {
 	const int MAX_FRAME_TIME = 5 * 1000 / FPS;
 }
 
-/* Game 
- * Create the game loop by initializing everything using SDL
- */
 Game::Game()
 {
 	SDL_Init(SDL_INIT_EVERYTHING);
 	this->gameLoop();
 }
 
-/* ~Game */
 Game::~Game()
 {
 
 }
 
-/* gameLoop 
- * Is called every frame, IS IMPORTANT
- */
 void Game::gameLoop()
 {
 	Graphics graphics;
@@ -74,13 +67,11 @@ void Game::gameLoop()
 	}
 }
 
-/* draw */
 void Game::draw(Graphics & graphics)
 {
 
 }
 
-/* update */
 void Game::update(float elapsedTime)
 {
 
