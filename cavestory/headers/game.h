@@ -6,6 +6,7 @@
  */
 
 #include "player.h"
+#include "level.h"
 
 // forward declaration of graphics class
 class Graphics;
@@ -33,6 +34,8 @@ private:
 	void update(float elapsedTime);
 
 	Player _player;
+
+	Level _level;
 };
 
 #endif

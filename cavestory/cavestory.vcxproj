@@ -120,6 +120,7 @@
   <ItemGroup>
     <ClCompile Include="src\animatedsprite.cpp" />
     <ClCompile Include="src\input.cpp" />
+    <ClCompile Include="src\level.cpp" />
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\game.cpp" />
     <ClCompile Include="src\graphics.cpp" />
@@ -131,12 +132,10 @@
     <ClInclude Include="headers\game.h" />
     <ClInclude Include="headers\globals.h" />
     <ClInclude Include="headers\graphics.h" />
+    <ClInclude Include="headers\level.h" />
     <ClInclude Include="headers\player.h" />
     <ClInclude Include="headers\sprite.h" />
     <ClInclude Include="headers\input.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <Image Include="content\sprites\MyChar.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
